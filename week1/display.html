@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+  	<title>Test display property</title>
+  	<style type="text/css">
+  		body {
+  			font-size: 62.5%;
+  		}
+  		div {
+  			background-color: rgba(133,133,133,0.5);
+			width: 2em;
+			height: 2em;
+  		}
+		.div-display-none {
+			display: none;
+		}
+  	</style>
+  </head>
+  <body>
+	<div class="div-display-none">
+		<p>this line should be remove from the content flow</p>
+	</div>
+	<div></div>
+  </body>
+</html>

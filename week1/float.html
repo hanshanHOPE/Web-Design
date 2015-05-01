@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+  	<title>Test float</title>
+  	<style type="text/css">
+  		body {
+  			font-size: 62.5%;
+  		}
+		.child-float-left,  .child-float-right, .child-float-none {
+			width: 10em;
+			height: 10em;
+		}	
+		.child-float-left,  .child-float-right, .child-float-none  span{
+			text-align: center;
+		}
+		.child-float-left {
+			float: left;
+			background-color: rgba(200, 0, 0, 0.5);
+		}
+		.child-float-right {
+			float: right;
+			background-color: rgba(0, 200, 0, 0.5);
+		}
+		.child-float-none {
+			float: none;
+			background-color: rgba(0, 0, 200, 0.5);
+		}
+  	</style>
+  </head>
+  <body>
+	<div>
+		<p>This is a line 1.This is a line 1.This is a line 1.This is a line 1.</p>
+		<div class="child-float-left"><span>1</span></div>
+		<div class="child-float-left"><span>2</span></div>
+		<div class="child-float-left"><span>3</span></div>
+		<p>This is a line 2.This is a line 2.This is a line 2.This is a line 2.</p>
+		<div class="child-float-none"><span>1</span></div>
+		<div class="child-float-none"><span>2</span></div>
+		<div class="child-float-none"><span>3</span></div>
+		<p>This is a line 3.This is a line 3.This is a line 3.This is a line 3.</p>
+		<div class="child-float-right"><span>1</span></div>
+		<div class="child-float-right"><span>2</span></div>
+		<div class="child-float-right"><span>3</span></div>
+		<p>This is a line 4.This is a line 4.This is a line 4.This is a line 4.</p>
+	</div>
+  </body>
+</html>

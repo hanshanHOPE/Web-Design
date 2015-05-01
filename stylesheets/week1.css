@@ -1,0 +1,64 @@
+/* line 6, ../sass/week1.scss */
+body {
+  font-size: 62.5%;
+  text-align: center;
+}
+
+/* line 11, ../sass/week1.scss */
+.hero {
+  background-image: url("../week1/bg.jpg");
+  background-size: cover;
+  color: white;
+}
+/* line 15, ../sass/week1.scss */
+.hero header {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 16, ../sass/week1.scss */
+.hero header ul {
+  float: right;
+}
+/* line 18, ../sass/week1.scss */
+.hero header ul li {
+  float: left;
+  margin: 1em 0.5em;
+  padding: 0.5em 1em;
+  list-style-type: none;
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
+/* line 26, ../sass/week1.scss */
+.hero header ul li:last-child {
+  border: 1px solid white;
+}
+/* line 34, ../sass/week1.scss */
+.hero h1 {
+  font-size: 4em;
+  padding: 1em 0 0.5em 0;
+}
+/* line 39, ../sass/week1.scss */
+.hero h2 {
+  font-size: 2em;
+}
+/* line 43, ../sass/week1.scss */
+.hero form {
+  padding: 2em 0 4em 0;
+}
+/* line 46, ../sass/week1.scss */
+.hero form input[type="text"] {
+  padding: 1em;
+  border: 0;
+  width: 18em;
+  opacity: 0.3;
+  border-radius: 2px 0 0 2px;
+}
+/* line 54, ../sass/week1.scss */
+.hero form input[type="button"] {
+  padding: 1em;
+  border: 0;
+  width: 6em;
+  color: white;
+  border-radius: 0 2px 2px 0;
+  background-color: lightgreen;
+}
